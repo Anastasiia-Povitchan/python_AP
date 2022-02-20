@@ -6,7 +6,7 @@ for i in text:
 
 m = max(word.values())
 
-s = {}
+s = 0
 
 for w in word:
     if word[w] == m:
@@ -14,6 +14,7 @@ for w in word:
         s = w
 
 print("Слово, которое в этом тексте встречается чаще всего - ", s)
+
 
 
 
