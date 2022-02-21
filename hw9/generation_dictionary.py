@@ -1,0 +1,1 @@
+print("Словарь символов:", {s: chr(s) for s in range(32, 128)})
